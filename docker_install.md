@@ -49,7 +49,7 @@ $ sudo apt-get update
 ```bash
 $ apt-cache madison docker-ce 
 ```
-#### whith version
+#### Write the desired version
 ```bash
 $ apt-cache madison docker-ce | awk '{ print $3 }'
 

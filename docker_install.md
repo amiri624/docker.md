@@ -49,7 +49,7 @@ $ sudo apt-get update
 ```bash
 $ apt-cache madison docker-ce 
 ```
-#### Write the desired version if you want
+#### Write the desired version, if you want
 ```bash
 $ apt-cache madison docker-ce | awk '{ print $3 }'
 
@@ -61,4 +61,5 @@ $ apt-cache madison docker-ce | awk '{ print $3 }'
 ```bash
 $ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
+```bash
 

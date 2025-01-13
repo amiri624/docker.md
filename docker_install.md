@@ -40,4 +40,25 @@ sudo apt-get update
 ```bash
 $ cat /etc/apt/sources.list.d/docker.list
 ```
+```bash
+$ sudo apt-get update
+```
+# To install a specific version of Docker Engine, start by listing the available versions in the repository:
+### List the available versions:
+#### which versio
+```bash
+$ apt-cache madison docker-ce 
+```
+#### whith version
+```bash
+$ apt-cache madison docker-ce | awk '{ print $3 }'
+
+5:27.4.0-1~ubuntu.24.04~noble
+5:27.3.1-1~ubuntu.24.04~noble
+...
+```
+# To install the latest version, run:
+```bash
+$ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+```
 

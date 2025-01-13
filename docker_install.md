@@ -45,7 +45,7 @@ $ sudo apt-get update
 ```
 # To install a specific version of Docker Engine, start by listing the available versions in the repository:
 ### List the available versions:
-#### which versio
+#### To see all versions
 ```bash
 $ apt-cache madison docker-ce 
 ```

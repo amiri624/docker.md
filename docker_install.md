@@ -69,5 +69,9 @@ $ docker info
 ```
 ```bash
 systemctl status docker.service
+systemctl status docker.service
 systemctl status docker.socket
+```
+```bash
+ls -l /var/lib/docker/
 ```

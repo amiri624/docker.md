@@ -67,3 +67,7 @@ $ docker --version
 ```bash
 $ docker info
 ```
+```bash
+systemctl status docker.service
+systemctl status docker.socket
+```

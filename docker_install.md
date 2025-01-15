@@ -1,24 +1,24 @@
 # install metodes
   
 ```bash 
-$ sudo apt update
+sudo apt update
 ```
 # official webseit 
 ```bash
-$ install docker
+install docker
 ```
 ```bash
-$ https://docs.docker.com › engine › install › ubuntu
+https://docs.docker.com › engine › install › ubuntu
 ```
 # Run the following command to uninstall all conflicting packages:
 ```bash
-$ for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
+for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
 ```
 # Add Docker's official GPG key:
 ```bash
-$ sudo apt-get update
-$ sudo apt-get install ca-certificates curl
-$ sudo install -m 0755 -d /etc/apt/keyrings
+sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
 ```
 ```bash
 $ sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc

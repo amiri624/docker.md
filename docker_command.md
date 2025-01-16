@@ -1,4 +1,5 @@
 # docker command
+
 ```bash
 sudo su -
 ```
@@ -8,11 +9,7 @@ https://docs.docker.com/engine/install/ubuntu
 # Add to the docker group + logout-log in
 ```bash
 usermod -aG docer meisam
-```
-```bash
 cat /etc/group
-```
-```bash 
 docker ps
 ```
 # docker pull + create + start
@@ -21,9 +18,13 @@ docker ps
 docker run -it ubuntu
 docker run -dit ubuntu
 ```
+
 # serch for version
 ```bash
 https://hub.docker.com/
+```
 ### serch ubuntu + Tags
+```bash
 docker pull ubuntu:24.04
 ```
+

@@ -23,7 +23,7 @@ docker run -dit ubuntu
 ```bash
 https://hub.docker.com/
 ```
-```bash
 ### serch ubuntu + Tags
+```bash
 docker pull ubuntu:24.04
 ```

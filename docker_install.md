@@ -10,10 +10,12 @@ install docker
 ```bash
 https://docs.docker.com › engine › install › ubuntu
 ```
+
 # Run the following command to uninstall all conflicting packages:
 ```bash
 for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
 ```
+
 # Add Docker's official GPG key:
 ```bash
 sudo apt-get update

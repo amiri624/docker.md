@@ -34,5 +34,16 @@ cat /etc/os_release
 ```bash
 ls -l /usr/bin
 ```
+# images list
 ```bash
+docker images
+```
+### We can download any image we need and it will download the latest by default.
+```bash
+docker pull alpine
+```
+### linux alpine
+```bash
+docker run -dit alpine
+```
 

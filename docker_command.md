@@ -27,3 +27,12 @@ https://hub.docker.com/
 ```bash
 docker pull ubuntu:24.04
 ```
+```bash
+cat /etc/os_release
+```
+### Which commands can we use in the container?
+```bash
+ls -l /usr/bin
+```
+```bash
+

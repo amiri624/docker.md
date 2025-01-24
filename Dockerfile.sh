@@ -14,7 +14,7 @@ COPY . /app
 
 RUN chmod +x /script.sh
 
-# ENTRYPOINT ["ping"]
+ENTRYPOINT ["ping"]
 
 # CMD ["./script.sh"]
 

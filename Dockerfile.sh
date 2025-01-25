@@ -16,6 +16,6 @@ RUN chmod +x /script.sh
 
 ENTRYPOINT ["ping"]
 
-# CMD ["./script.sh"]
+CMD ["./script.sh"]
 
 cmd ["1.1.1.1"]

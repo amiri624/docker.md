@@ -46,4 +46,3 @@ docker pull alpine
 ```bash
 docker run -dit alpine
 ```
-

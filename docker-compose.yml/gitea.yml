@@ -1,4 +1,3 @@
-
 ---
 version: '3.8'
 services:
@@ -33,3 +32,4 @@ restart: always
 volumes:
   git_data:
   db_data:
+

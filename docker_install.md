@@ -1,4 +1,3 @@
-
 # install metodes
   
 ```bash 

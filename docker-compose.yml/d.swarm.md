@@ -16,3 +16,6 @@ docker swarm leave --force
 docker swarm join-token worker
 docker swarm join-token manger
 ```
+```bash
+docker ps | wc -l
+```

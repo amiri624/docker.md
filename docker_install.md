@@ -6,7 +6,7 @@ sudo apt update
 ```
 # official webseit 
 ```bash
-install docker
+sudo apt install docker
 ```
 ```bash
 https://docs.docker.com › engine › install › ubuntu

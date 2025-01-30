@@ -7,5 +7,12 @@ docker swarm init
 docker node ls
 ```
 ```bash
-docker swarm leave
+docker node promote srv2
+```
+```bash
+docker swarm leave --force
+```
+```bash
+docker swarm join-token worker
+docker swarm join-token manger
 ```

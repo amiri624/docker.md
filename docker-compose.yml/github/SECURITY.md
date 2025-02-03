@@ -1,4 +1,3 @@
-
 # Security Policy
 The maintainers of Docker Compose take security seriously. If you discover
 a security issue, please bring it to their attention right away!

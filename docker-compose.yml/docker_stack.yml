@@ -8,7 +8,6 @@
 
 
 
-
     deploy:
       mode: replicated
       replicas: 5

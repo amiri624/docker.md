@@ -1,6 +1,7 @@
 gitea:
    container_name: gitea
-
+   image: gitea/gitea:1.23
+   envi
 
 
 

@@ -1,3 +1,5 @@
+gitea:
+   container_name: gitea
 
 
 

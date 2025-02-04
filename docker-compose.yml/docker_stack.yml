@@ -1,1 +1,22 @@
 
+
+
+
+
+
+
+
+    deploy:
+      mode: replicated
+      replicas: 5
+      update_config:
+        parallelism: 1
+        #delay: 30s
+        order: start-first
+      #restart_policy:
+        #condition: any
+        #delay: 20s
+        #window: 60s
+      placement:
+         constraints: [node.hostname == srv1]
+         

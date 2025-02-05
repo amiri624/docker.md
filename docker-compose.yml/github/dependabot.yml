@@ -21,3 +21,4 @@ updates:
         update-types: [ "version-update:semver-major", "version-update:semver-minor" ]
         # OTEL dependencies should be upgraded in sync with engine, cli, buildkit and buildx projects
       - dependency-name: "go.opentelemetry.io/*"
+
